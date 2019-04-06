@@ -133,7 +133,8 @@ body {
 
 #title, #score {
   font-family: 'VT323', monospace;
-  font-size: 72px;
+  /** font-size: 72px; **/
+  font-size: 9vw;
   text-align: center;
   margin: 0;
   padding: 0;
