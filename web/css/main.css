@@ -282,8 +282,11 @@ textarea {
     p,
     h2,
     h3 {
+
+        /** Removing due to FF errors JPR 2019-04-06 
         orphans: 3;
         widows: 3;
+        **/
     }
 
     h2,
