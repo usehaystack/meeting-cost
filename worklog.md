@@ -5,6 +5,7 @@
 Giving Up, Moving Forward (link to blog post).
 
 - Add HTML 5 Boilerplate files
+- Mock up the simple design in HTML (yeah, it's really simple)
 
 ## 2019-04-01
 
