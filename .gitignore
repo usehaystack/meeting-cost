@@ -1,0 +1,6 @@
+.DS_Store
+logs
+@scratch.txt
+
+# This stuff can probably be removed after testing
+flickr-test-data
