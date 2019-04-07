@@ -2,11 +2,16 @@
 
 ## 2019-04-06
 
-Giving Up, Moving Forward (link to blog post).
+[I gave up, and moved forward](https://jpreardon.com/2019/04/06/giving-up-moving-forward/)...
 
 - Add HTML 5 Boilerplate files
 - Mock up the simple design in HTML (yeah, it's really simple)
 - Make text size relative to viewport width
+- Removed jquery.js and plugins.js
+- Get a very basic count-up working with very basic controls
+- Serve font rather than getting it from Google Fonts
+- Let's call it an MVP!
+
 
 ## 2019-04-01
 

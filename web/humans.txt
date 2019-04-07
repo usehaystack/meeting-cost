@@ -8,6 +8,7 @@
 # THANKS
 
     HTML 5 Boilerplate
+    Peter Hull - VT323 Font - https://fonts.google.com/specimen/VT323
 
 # TECHNOLOGY COLOPHON
 
