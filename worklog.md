@@ -4,6 +4,7 @@
 
 - Added some localization, sort of.
 - Make labels all caps.
+- Change cost per hour label.
 
 ## 2019-04-06
 
