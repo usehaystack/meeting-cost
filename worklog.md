@@ -1,5 +1,9 @@
 # Worklog
 
+## 2019-04-08
+
+- Added some localization, sort of.
+
 ## 2019-04-06
 
 [I gave up, and moved forward](https://jpreardon.com/2019/04/06/giving-up-moving-forward/)...

@@ -146,7 +146,7 @@ body {
   display: inline-block;
 }
 
-.controls input {
+.controls input, .controls select {
   color: white;
   background-color: black;
 }

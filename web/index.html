@@ -21,7 +21,7 @@
     <div class="middle">
       <div class="inner">
         <p id="title">CURRENT MEETING COST</p>
-        <p id="score">$ 0.00</p>
+        <p id="score">&nbsp;</p>
       </div>
     </div>
   </div>
@@ -31,6 +31,14 @@
         <div class="control">
           <label for="hourlyCost">Cost Per Hour</label>
           <input type="number" id="hourlyCost" value="50">
+        </div>
+        <div class="control">
+          <label for="currency">CCY</label>
+          <select id="currency">
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <option value="USD" selected>USD</option>
+          </select>
         </div>
         <div class="control">
           <label for="numberPeople">Number of People</label>
