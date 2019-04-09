@@ -154,6 +154,7 @@ body {
 .controls label {
   display: block;
   text-align: left;
+  text-transform: uppercase;
 }
 
 #title, #score {

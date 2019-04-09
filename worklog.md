@@ -3,6 +3,7 @@
 ## 2019-04-08
 
 - Added some localization, sort of.
+- Make labels all caps.
 
 ## 2019-04-06
 
