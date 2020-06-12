@@ -1,0 +1,69 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Meeting Cost</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <div class="outer">
+    <div class="middle">
+      <div class="inner">
+        <p id="title">ESTIMATED TECH DEBT COST</p>
+        <p id="sub-title">super, very rough & dirty estimate</p>
+        <p id="tech-debt-score">&nbsp;</p>
+        <p id="content-text">Q1: how many hours are wasted per week on this tech debt? (give your best guess)</p>
+        <div class="middle">
+            <span class="blinking-cursor">|</span>          
+            <input type="number" id="interactive-input" value="2">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="controls">
+    <div class="middle">
+      <div class="inner">
+        <div class="control">
+            <label for="weeklyCost">How many hours a week do you lose because of this piece of shitty code? (super, very rough & dirty estimate)</label>
+            <input type="number" id="weeklyCost" value="2">
+        </div>             
+        <br/>
+        <div class="control">
+          <label for="hourlyCost">Avg Eng Salary</label>
+          <input type="number" id="hourlyCost" value="50">
+        </div>
+        <br/>
+        <div class="control">
+          <label for="currency">CCY</label>
+          <select id="currency">
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <option value="USD" selected>USD</option>
+          </select>
+        </div>
+        <br/>
+        <div class="control">
+          <label for="numberPeople">Number of Engineers that run into the issue</label>
+          <input type="number" id="numberPeople" value="5">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

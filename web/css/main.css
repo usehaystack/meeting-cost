@@ -146,13 +146,15 @@ body {
   display: inline-block;
 }
 
+/*
 .controls input, .controls select {
   color: white;
   background-color: black;
 }
+*/
 
 .controls label {
-  display: block;
+  /*display: block;*/
   text-align: left;
   text-transform: uppercase;
 }
@@ -163,6 +165,35 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
+}
+
+#sub-title, #score {
+  /** font-size: 72px; **/
+  font-size: 2vw;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+#content-text {
+  /** font-size: 72px; **/
+  font-size: 1.5vw;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: white;
+  background-color: black;
+  color: white;
+}
+
+input:focus {
+  border-color: white
 }
 
  /* ==========================================================================
@@ -243,6 +274,62 @@ body {
 
 .clearfix:after {
   clear: both;
+}
+
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 30px;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
 }
 
  
